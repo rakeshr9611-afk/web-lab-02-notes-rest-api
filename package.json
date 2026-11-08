@@ -1,0 +1,16 @@
+{
+  "name": "web-lab-02-notes-rest-api",
+  "version": "1.0.0",
+  "description": "Web Lab 02: a dependency-free RESTful Notes API in Node.js with full test coverage",
+  "main": "src/server.js",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/"
+  },
+  "license": "MIT"
+}
